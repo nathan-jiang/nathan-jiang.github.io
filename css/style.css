@@ -704,6 +704,7 @@ img {
         padding: 1rem 0;
         box-shadow: var(--shadow-md);
         display: none;
+        z-index: 999;
     }
 
     .nav-menu.active {
@@ -721,6 +722,12 @@ img {
     .hero {
         min-height: 60vh;
         padding: 1.5rem;
+        margin-top: 64px;
+    }
+
+    /* Prevent content from hiding under navbar when using anchor links */
+    section[id] {
+        scroll-margin-top: 80px;
     }
 
     .hero-title {
@@ -795,8 +802,17 @@ img {
     }
 
     .hero {
-        margin-top: 56px;
+        margin-top: 70px;
         padding: 1rem;
+    }
+
+    body {
+        padding-top: 0;
+    }
+
+    /* Prevent content from hiding under navbar when using anchor links */
+    section[id] {
+        scroll-margin-top: 85px;
     }
 
     .hero-title {

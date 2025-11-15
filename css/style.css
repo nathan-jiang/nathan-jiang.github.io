@@ -108,7 +108,7 @@ img {
 
 /* ===== Hero Section ===== */
 .hero {
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,22 +124,22 @@ img {
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     font-weight: 800;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     animation: fadeInUp 0.8s ease;
 }
 
 .hero-subtitle {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 300;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     animation: fadeInUp 0.8s ease 0.2s both;
 }
 
 .hero-description {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
     opacity: 0.9;
     animation: fadeInUp 0.8s ease 0.4s both;
 }
@@ -210,7 +210,7 @@ img {
 
 /* ===== Sections ===== */
 .section {
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .bg-light {
@@ -223,13 +223,13 @@ img {
 }
 
 .section-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     color: var(--text-dark);
     position: relative;
-    padding-bottom: 1rem;
+    padding-bottom: 0.75rem;
 }
 
 .section-title::after {
@@ -248,26 +248,26 @@ img {
 .about-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
 }
 
 .about-text p {
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 1.05rem;
+    line-height: 1.7;
     color: var(--text-light);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 .about-stats {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.25rem;
 }
 
 .stat {
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.25rem;
     background-color: var(--bg-white);
     border-radius: 0.5rem;
     box-shadow: var(--shadow-md);
@@ -282,10 +282,10 @@ img {
 }
 
 .stat h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--primary-color);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.35rem;
 }
 
 .stat p {
@@ -313,7 +313,7 @@ img {
 
 .timeline-item {
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .timeline-item::before {
@@ -363,13 +363,13 @@ img {
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .project-card {
     background-color: var(--bg-white);
     border-radius: 0.75rem;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: var(--shadow-md);
     transition: var(--transition);
     border: 1px solid var(--border-color);
@@ -460,12 +460,12 @@ img {
 .education-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .education-card {
     background-color: var(--bg-white);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 0.75rem;
     box-shadow: var(--shadow-md);
     text-align: center;
@@ -519,12 +519,12 @@ img {
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .skill-category {
     background-color: var(--bg-white);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 0.75rem;
     box-shadow: var(--shadow-md);
     border: 1px solid var(--border-color);
@@ -537,8 +537,8 @@ img {
 }
 
 .skill-category h3 {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
     color: var(--text-dark);
     display: flex;
     align-items: center;
